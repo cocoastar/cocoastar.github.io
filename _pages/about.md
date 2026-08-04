@@ -15,7 +15,7 @@ redirect_from:
   border:1px solid transparent; transition:background .15s ease, border-color .15s ease;
 }
 .page__content .pub:hover{ background:#f7f8fa; }
-.page__content .pub.hl{ background:#fffdf4; border-color:#f2e3b3; }
+.page__content .pub.hl{ background:#fef2f2; border-color:#f7c6c6; border-left:4px solid #d9534f; }
 .page__content .pub-thumb{ flex-shrink:0; width:200px; }
 .page__content .pub-thumb img{
   width:200px; height:120px; object-fit:cover; border-radius:10px;
