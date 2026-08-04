@@ -31,7 +31,10 @@ redirect_from:
 .page__content .pub-authors{ font-size:.92rem; color:#6a737d; margin-bottom:4px; }
 .page__content .pub-authors .me{ color:#2d2d2d; font-weight:700; }
 .page__content .pub-venue{ font-size:.9rem; color:#2f7de1; font-weight:600; margin-bottom:4px; }
-.page__content .pub-venue .tag{ color:#c0392b; }
+.page__content .pub-venue .tag{
+  display:inline-block; margin-left:4px; padding:1px 8px; border-radius:10px;
+  background:#eef0f2; color:#6a737d; font-size:.8rem; font-weight:600;
+}
 .page__content .pub-links{ font-size:.88rem; color:#8a939b; }
 .page__content .pub-links a{ text-decoration:none; }
 
@@ -77,9 +80,9 @@ My research interests include Foundation Models, Multimodal Large Language Model
 - *2025.12*: &nbsp;🎉 Joined the CV Lab at Amap as a Research Intern.
 
 # 📝 Publications
-<sup>My name is shown in <strong>bold</strong>.</sup>
+<sup>\* denotes equal contribution. First-author work is highlighted.</sup>
 
-<div class="pub">
+<div class="pub hl">
   <div class="pub-thumb"><img src="images/publications/prosr.jpg" alt="ProSR"></div>
   <div class="pub-main">
     <a class="pub-title" href="https://arxiv.org/abs/2605.25524">ProSR: Process-Shaped Spatial Reasoning for Reliable Chain-of-Thought in VLMs</a>
@@ -119,7 +122,7 @@ My research interests include Foundation Models, Multimodal Large Language Model
   </div>
 </div>
 
-<div class="pub hl">
+<div class="pub">
   <div class="pub-thumb"><img src="images/publications/remot.jpg" alt="ReMoT"></div>
   <div class="pub-main">
     <a class="pub-title" href="https://arxiv.org/abs/2603.00461">ReMoT: Reinforcement Learning with Motion Contrast Triplets</a>
@@ -129,7 +132,7 @@ My research interests include Foundation Models, Multimodal Large Language Model
   </div>
 </div>
 
-<div class="pub">
+<div class="pub hl">
   <div class="pub-thumb"><img src="images/publications/hash.jpg" alt="Parameter Isolation"></div>
   <div class="pub-main">
     <a class="pub-title" href="https://arxiv.org/abs/2601.20894">Is Parameter Isolation Better for Prompt-Based Continual Learning?</a>
@@ -139,12 +142,12 @@ My research interests include Foundation Models, Multimodal Large Language Model
   </div>
 </div>
 
-<div class="pub">
+<div class="pub hl">
   <div class="pub-thumb"><img src="images/publications/navgrpo.jpg" alt="Trajectory-Diversity VLN"></div>
   <div class="pub-main">
     <a class="pub-title" href="https://arxiv.org/abs/2603.15370">Trajectory-Diversity-Driven: Robust Vision-and-Language Navigation</a>
     <div class="pub-authors"><span class="me">Jiangyang Li</span>, Cong Wan, SongLin Dong, Chenhao Ding, Qiang Wang, Zhiheng Ma, Yihong Gong</div>
-    <div class="pub-venue">CVPR 2026 <span class="tag">(Findings)</span></div>
+    <div class="pub-venue">CVPR 2026 Findings</div>
     <div class="pub-links"><a href="https://arxiv.org/abs/2603.15370">arXiv</a></div>
   </div>
 </div>
@@ -163,8 +166,8 @@ My research interests include Foundation Models, Multimodal Large Language Model
   <div class="pub-thumb"><img src="images/publications/sulora.jpg" alt="SuLoRA"></div>
   <div class="pub-main">
     <a class="pub-title" href="https://aclanthology.org/2025.findings-acl.278/">SuLoRA: Subspace Low-Rank Adaptation for Parameter-Efficient Fine-Tuning</a>
-    <div class="pub-authors">Chenhao Ding, <span class="me">Jiangyang Li</span>, Songlin Dong, Xinyuan Gao, Yuhang He, Yihong Gong</div>
-    <div class="pub-venue">ACL 2025 <span class="tag">(Findings)</span></div>
+    <div class="pub-authors">Chenhao Ding*, <span class="me">Jiangyang Li*</span>, Songlin Dong, Xinyuan Gao, Yuhang He, Yihong Gong</div>
+    <div class="pub-venue">ACL 2025 Findings</div>
     <div class="pub-links"><a href="https://aclanthology.org/2025.findings-acl.278/">ACL Anthology</a></div>
   </div>
 </div>
@@ -177,7 +180,7 @@ My research interests include Foundation Models, Multimodal Large Language Model
 
 <div class="tl">
   <div class="tl-item">
-    <img class="orglogo" src="images/logos/ant.png" alt="Ant Group">
+    <img class="orglogo" src="images/logos/ant.jpg" alt="Ant Group">
     <div class="tl-body">
       <div class="tl-top">
         <span class="tl-place">Bailing, Ant Group</span>
@@ -187,7 +190,7 @@ My research interests include Foundation Models, Multimodal Large Language Model
     </div>
   </div>
   <div class="tl-item">
-    <img class="orglogo" src="images/logos/amap.png" alt="Amap">
+    <img class="orglogo" src="images/logos/amap.jpg" alt="Amap">
     <div class="tl-body">
       <div class="tl-top">
         <span class="tl-place">CV Lab, Amap</span>
@@ -202,7 +205,7 @@ My research interests include Foundation Models, Multimodal Large Language Model
 
 <div class="tl">
   <div class="tl-item">
-    <img class="orglogo" src="images/logos/xjtu.png" alt="Xi'an Jiaotong University">
+    <img class="orglogo" src="images/logos/xjtu.jpg" alt="Xi'an Jiaotong University">
     <div class="tl-body">
       <div class="tl-top">
         <span class="tl-place"><a href="http://en.xjtu.edu.cn/">Xi'an Jiaotong University</a></span>
@@ -212,7 +215,7 @@ My research interests include Foundation Models, Multimodal Large Language Model
     </div>
   </div>
   <div class="tl-item">
-    <img class="orglogo" src="images/logos/hust.png" alt="Huazhong University of Science and Technology">
+    <img class="orglogo" src="images/logos/hust.jpg" alt="Huazhong University of Science and Technology">
     <div class="tl-body">
       <div class="tl-top">
         <span class="tl-place"><a href="http://english.hust.edu.cn/">Huazhong University of Science and Technology</a></span>
