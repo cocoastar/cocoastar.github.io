@@ -15,7 +15,7 @@ redirect_from:
   border:1px solid transparent; transition:background .15s ease, border-color .15s ease;
 }
 .page__content .pub:hover{ background:#f7f8fa; }
-.page__content .pub.hl{ background:#fef2f2; border-color:#f7c6c6; border-left:4px solid #d9534f; }
+.page__content .pub.hl{ background:#fffdf4; border-color:#f2e3b3; }
 .page__content .pub-thumb{ flex-shrink:0; width:200px; }
 .page__content .pub-thumb img{
   width:200px; height:120px; object-fit:cover; border-radius:10px;
@@ -35,6 +35,7 @@ redirect_from:
   display:inline-block; margin-left:4px; padding:1px 8px; border-radius:10px;
   background:#eef0f2; color:#6a737d; font-size:.8rem; font-weight:600;
 }
+.page__content .pub-venue .tag.tag-hl{ background:#fdecea; color:#d9534f; }
 .page__content .pub-links{ font-size:.88rem; color:#8a939b; }
 .page__content .pub-links a{ text-decoration:none; }
 
@@ -127,7 +128,7 @@ My research interests include Foundation Models, Multimodal Large Language Model
   <div class="pub-main">
     <a class="pub-title" href="https://arxiv.org/abs/2603.00461">ReMoT: Reinforcement Learning with Motion Contrast Triplets</a>
     <div class="pub-authors">Cong Wan, Zeyu Guo, <span class="me">Jiangyang Li</span>, SongLin Dong, Yifan Bai, Lin Peng, Zhiheng Ma, Yihong Gong</div>
-    <div class="pub-venue">CVPR 2026 <span class="tag">(Highlight, Top 3.8%)</span></div>
+    <div class="pub-venue">CVPR 2026 <span class="tag tag-hl">(Highlight, Top 3.8%)</span></div>
     <div class="pub-links"><a href="https://arxiv.org/abs/2603.00461">arXiv</a></div>
   </div>
 </div>
