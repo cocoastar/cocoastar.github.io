@@ -16,10 +16,10 @@ redirect_from:
 }
 .page__content .pub:hover{ background:#f7f8fa; }
 .page__content .pub.hl{ background:#fffdf4; border-color:#f2e3b3; }
-.page__content .pub-thumb{ flex-shrink:0; width:200px; }
+.page__content .pub-thumb{ flex-shrink:0; width:260px; }
 .page__content .pub-thumb img{
-  width:200px; height:120px; object-fit:cover; border-radius:10px;
-  border:1px solid #e6e8eb; background:#fff; display:block;
+  width:260px; height:150px; object-fit:contain; border-radius:10px;
+  border:1px solid #e6e8eb; background:#fff; display:block; padding:4px;
   box-shadow:0 2px 8px rgba(20,32,64,.06);
 }
 .page__content .pub-main{ flex:1; min-width:0; }
@@ -64,7 +64,7 @@ redirect_from:
 @media(max-width:768px){
   .page__content .pub{ flex-direction:column; gap:12px; }
   .page__content .pub-thumb, .page__content .pub-thumb img{ width:100%; }
-  .page__content .pub-thumb img{ height:150px; }
+  .page__content .pub-thumb img{ height:180px; }
 }
 </style>
 
